@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    padding: 26px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.leftClicked {
+    background-color: yellow;
+}
+
+.rightClicked {
+    background-color: blue;
+}
+
+.doubleClass {
+    background-color: green;
+}
+
+.moveBlock {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: gold;
+    top: 600px;
+}
